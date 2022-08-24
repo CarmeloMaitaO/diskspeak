@@ -47,7 +47,7 @@ void help()
 {
         std::cout << "Instructions:" << std::endl;
         std::cout << "diskspeak -h|v" << std::endl;
-        std::cout << "diskspeak -p \'[rw]...\'" << std::endl;
+        std::cout << "diskspeak -p \'[rw]...\' <disk>" << std::endl;
 }
 
 void version()
