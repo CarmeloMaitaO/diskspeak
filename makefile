@@ -1,8 +1,6 @@
-ejecutar: diskspeak
-  ./diskspeak
 diskspeak: clean
-  g++ main.cpp
+	g++ main.cpp -o diskspeak
 clean:
-  touch diskspeak
-  rm diskspeak
-.PHONY: ejecutar limpiar
+	touch diskspeak
+	rm diskspeak
+.PHONY: clean
